@@ -2,7 +2,7 @@
 #include "Tank.h"
 #include "L298n.h"
 
-TankLib::Tank::Tank(int enL, int in1L, int in2L, int enR, int in1R, int in2R, bool invertL=false, bool invertR=false){
+TankLib::Tank::Tank(int enL, int in1L, int in2L, int enR, int in1R, int in2R, bool invertL, bool invertR){
 	en_L = enL;
 	in1_L = in1L;
 	in2_L = in2L;
@@ -21,7 +21,7 @@ TankLib::Tank::begin(){
 }
 
 TankLib::Tank::drive(bool dirL, bool dirR, int speedL, int speedR){
-	
+
 }
 
 TankLib::Tank::driveDir(int _dir, int _speed){
@@ -29,5 +29,5 @@ TankLib::Tank::driveDir(int _dir, int _speed){
 }
 
 TankLib::Tank::stop(){
-	
+
 }
