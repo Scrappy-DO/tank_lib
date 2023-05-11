@@ -1,3 +1,0 @@
-[submodule "lib/l298n_lib"]
-	path = lib/l298n_lib
-	url = https://github.com/Scrappy-DO/l298n_lib
