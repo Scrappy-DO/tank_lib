@@ -1,7 +1,7 @@
 #ifndef Tank_h
 #define Tank_h
 #include "Arduino.h"
-#include "L298n.h"
+#include <L298n.h>
 
 class TankLib{
 	public:

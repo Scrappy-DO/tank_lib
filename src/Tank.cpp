@@ -1,6 +1,6 @@
 #include "Arduino.h"
 #include "Tank.h"
-#include "L298n.h"
+#include <L298n.h>
 
 TankLib::Tank::Tank(int enL, int in1L, int in2L, int enR, int in1R, int in2R, bool invertL, bool invertR){
 	en_L = enL;
