@@ -13,7 +13,7 @@ TankLib::Tank::Tank(int enL, int in1L, int in2L, int enR, int in1R, int in2R, bo
 	in2_R = in2R;
 	invert_R = invertR;
 
-	motor = L298n::Driver(en_L, en_R, in1_L, in2_L, in1_R, in2_R, invert_L, invert_R);
+	motor = L298n::Driver::Driver(en_L, en_R, in1_L, in2_L, in1_R, in2_R, invert_L, invert_R);
 }
 
 TankLib::Tank::begin(){
