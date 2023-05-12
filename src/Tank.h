@@ -3,7 +3,7 @@
 #include "Arduino.h"
 #include "L298n.h"
 
-class TankDir{
+class TankLib{
 	public:
 		enum TankDir
 		{
@@ -26,7 +26,7 @@ class TankDir{
 				bool invert_L;
 				bool invert_R;
 				L298n::Driver motor;
-				
+
 			public:
 				TankDir dir;
 				bool FORWARD = true;
